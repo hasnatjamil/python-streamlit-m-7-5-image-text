@@ -72,9 +72,6 @@ if pressed:
                 📋 Copy Text
             </button>
 
-            <p id="copyMsg" style="display:none; color:green; margin-top:5px;">
-                ✅ Text copied!
-            </p>
-            """
+           """
 
             components.html(copy_html, height=80)
