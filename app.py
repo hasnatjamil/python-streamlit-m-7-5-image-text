@@ -70,7 +70,7 @@ if pressed:
                     #        border-radius:6px;
                     #        cursor:pointer;"
                            >
-                # 📋 Copy Text
+                #Copy Text
             </button>
 
            """
