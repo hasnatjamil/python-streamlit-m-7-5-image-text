@@ -62,13 +62,7 @@ if pressed:
             copy_html = f"""
             <button onclick="navigator.clipboard.writeText({safe_text});
                              document.getElementById('copyMsg').style.display='block';"
-                    # style="margin-top:10px;
-                    #        padding:8px 14px;
-                    #        background-color:#4CAF50;
-                    #        color:white;
-                    #        border:none;
-                    #        border-radius:6px;
-                    #        cursor:pointer;"
+                
                            >
                 
             </button>
