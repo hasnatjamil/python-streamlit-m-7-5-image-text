@@ -59,19 +59,20 @@ if pressed:
             # -------- Copy Button (SAFE) --------
             safe_text = json.dumps(generated_text)
 
-           #  copy_html = f"""
-           #  <button onclick="navigator.clipboard.writeText({safe_text});
-           #                   document.getElementById('copyMsg').style.display='block';"
-           #          style="margin-top:10px;
-           #                 padding:8px 14px;
-           #                 background-color:#4CAF50;
-           #                 color:white;
-           #                 border:none;
-           #                 border-radius:6px;
-           #                 cursor:pointer;">
-           #      📋 Copy Text
-           #  </button>
+            copy_html = f"""
+            <button onclick="navigator.clipboard.writeText({safe_text});
+                             document.getElementById('copyMsg').style.display='block';"
+                    # style="margin-top:10px;
+                    #        padding:8px 14px;
+                    #        background-color:#4CAF50;
+                    #        color:white;
+                    #        border:none;
+                    #        border-radius:6px;
+                    #        cursor:pointer;"
+                           >
+                # 📋 Copy Text
+            </button>
 
-           # """
+           """
 
             components.html(copy_html, height=80)
